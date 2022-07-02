@@ -1,0 +1,6 @@
+server:
+  liquibase:
+    enabled: true
+    change-log: classpath:liquibase/changelog.yml
+    clear-checksums: true
+    drop-first: true

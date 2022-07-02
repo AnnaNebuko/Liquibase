@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - preConditions:
+      - runningAs:
+          username: username
+  - include:
+      file: liquibase/changeset/init-table.yml
+  - include:
+      file: liquibase/changeset/fill-table.yml
